@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "build": "webpack --mode=production",
-    "start": "webpack-dev-server --mode=development --hot --inline --config=webpack.config.development.js"
+    "start": "webpack-dev-server --mode=development --hot --inline --content-base=./dist"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",

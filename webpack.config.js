@@ -24,15 +24,10 @@ module.exports = {
       template: "index.html"
     })
   ],
-  mode: "development",
   entry: {
     app: path.join(__dirname, "src", "index.js")
   },
   output: {
     path: path.join(__dirname, "dist")
-  },
-  devServer: {
-    contentBase: "dist",
-    publicPath: "/"
   }
 }
